@@ -1,4 +1,4 @@
-##Here you can see my scripts for the first plot figure 
+##Here you can see my scripts for the third plot figure 
 #At first, we need to read our file; here is my code for reading the data
 #The data frame name would be gap (short from Global Active Power)
 gap <- read.table("household_power_consumption.txt", sep = ";", header=T)
