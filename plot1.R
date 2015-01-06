@@ -1,6 +1,6 @@
 ##Here you can see my scripts for the first plot figure 
 #At first, we need to read our file; here is my code for reading the data
-#The data frame nam would be gap (short from Global Active Power)
+#The data frame name would be gap (short from Global Active Power)
 gap <- read.table("household_power_consumption.txt", sep = ";", header=T)
 #The next step is changing the date and time columns to one combined column as it was recommended
 datetime <- paste(gap$Date, gap$Time)
